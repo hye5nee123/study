@@ -1,0 +1,12 @@
+package com.mysite.sbb;
+
+public class HelloController {
+
+	@Controller
+	public class HelloController {
+	    @GetMapping("/hello")
+	    @ResponseBody
+	    public String hello() {
+	        return "Hello World";
+	    }
+	}
