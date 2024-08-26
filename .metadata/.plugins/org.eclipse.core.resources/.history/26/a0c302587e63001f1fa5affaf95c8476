@@ -1,0 +1,17 @@
+package hw;
+
+class Rectangle {
+
+
+
+
+
+
+class Circle extends Rectangle
+
+
+public class HW03 {
+public static void main(String[] args) {
+	
+}
+}
