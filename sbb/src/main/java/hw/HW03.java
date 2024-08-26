@@ -1,55 +1,46 @@
 package hw;
 
-abstract class Shape {
-    protected String color;
-
-    public Shape(String color) {
-        this.color = color;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public abstract double area();
+class Shape {
+	public String color;
+	
+	public String getColor() {
+		return color;
+		
+	}
+	
+	public void area(int x, int y) {
+		
+	}
+	
 }
 
 class Rectangle extends Shape {
-    private double width;
-    private double height;
 
-    public Rectangle(String color, double width, double height) {
-        super(color);
-        this.width = width;
-        this.height = height;
-    }
-
-    @Override
-    public double area() {
-        return width * height;
-    }
+	@Override
+	public void area(int x, int y) {
+		int area = x * y;
+		System.out.println(area);
+	}
+	
 }
 
 class Circle extends Shape {
-    private double radius;
-
-    public Circle(String color, double radius) {
-        super(color);
-        this.radius = radius;
-    }
-
-    @Override
-    public double area() {
-        return Math.PI * Math.pow(radius, 2);
-    }
+	
+	@Override
+	public void area(int x, int y) {
+		double pie = Math.round(Math.PI * 100.0) / 100.0;
+		double area = pie  * x * y;
+		System.out.println(area);
+	}
+	
 }
 
 public class HW03 {
-    public static void main(String[] args) {
-        Rectangle rec = new Rectangle("Red", 2, 3);
-        Circle cir = new Circle("Blue", 2);
 
-        System.out.println("Rectangle area: " + rec.area());
-        System.out.println("Circle area: " + cir.area());
-    }
+	public static void main(String[] args) {
+		Rectangle rec = new Rectangle();
+		Circle cir = new Circle();
+		rec.area(2, 3);
+		cir.area(2, 2);
+	}
 }

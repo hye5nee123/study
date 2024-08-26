@@ -1,34 +1,28 @@
 package hw;
 
 class Employee {
-    protected double salary;
 
-    public Employee(double salary) {
-        this.salary = salary;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
+	public int pay;
+	
+	void getSalary(int pay) {
+		System.out.println(pay);
+	}
 }
 
 class Manager extends Employee {
-    private double bonus;
 
-    public Manager(double salary, double bonus) {
-        super(salary);
-        this.bonus = bonus;
-    }
-
-    @Override
-    public double getSalary() {
-        return super.getSalary() + bonus; 
-    }
+	public int bonus;
+	
+	void getSalary(int pay, int bonus) {
+		System.out.println(pay + bonus);
+	}
+	
 }
 
 public class HW04 {
-    public static void main(String[] args) {
-        Manager manager = new Manager(100, 500);
-        System.out.println("Manager's total salary: " + manager.getSalary());
-    }
+
+	public static void main(String[] args) {
+		Manager manager = new Manager();
+		manager.getSalary(100, 500);
+	}
 }
