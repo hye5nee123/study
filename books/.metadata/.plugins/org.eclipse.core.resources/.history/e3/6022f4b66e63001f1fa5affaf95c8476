@@ -1,7 +1,0 @@
-package com.mysite.sbb;
-
-import org.hibernate.type.descriptor.converter.spi.JpaAttributeConverter;
-
-public interface AnswerRepository extends JpaAttributeConverter<O, R> {
-
-}
