@@ -717,6 +717,7 @@ END
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-26 17:40:07.049
 !MESSAGE Started org.springframework.tooling.boot.ls LS process 17688
+<<<<<<< Updated upstream
 !SESSION 2024-08-27 08:57:39.679 -----------------------------------------------
 eclipse.buildId=4.24.0.202407191504
 java.version=21.0.3
@@ -4890,6 +4891,9 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 !SESSION 2024-08-28 12:31:44.727 -----------------------------------------------
+=======
+!SESSION 2024-08-27 08:41:13.336 -----------------------------------------------
+>>>>>>> Stashed changes
 eclipse.buildId=4.24.0.202407191504
 java.version=21.0.3
 java.vendor=Eclipse Adoptium
@@ -4897,6 +4901,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
+<<<<<<< Updated upstream
 !ENTRY ch.qos.logback.classic 1 0 2024-08-28 12:31:49.686
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
@@ -4914,6 +4919,25 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springfra
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-28 12:31:59.578
+=======
+!ENTRY ch.qos.logback.classic 1 0 2024-08-27 08:41:17.039
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-27 08:41:19.697
+!MESSAGE Logback config file: C:\dev\book\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-08-27 08:41:20.343
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-08-27 08:41:20.343
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-08-27 08:41:20.917
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-08-27 08:41:20.917
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-27 08:41:26.690
+>>>>>>> Stashed changes
 !MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
 START:
 C:\dev\sts4\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
@@ -4924,11 +4948,16 @@ C:\dev\sts4\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\serv
 -XX:TieredStopAtLevel=1
 -Xlog:jni+resolve=off
 -Dspring.config.location=file:C:\dev\sts4\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+<<<<<<< Updated upstream
 -XX:ErrorFile=C:/dev/book/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1724815919577
+=======
+-XX:ErrorFile=C:/dev/book/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1724715686689
+>>>>>>> Stashed changes
 org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
 --languageserver.hover-timeout=225
 END
 
+<<<<<<< Updated upstream
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-28 12:31:59.579
 !MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
 
@@ -4957,11 +4986,30 @@ END
 !MESSAGE Boot project ADDED: sbb
 
 !ENTRY org.eclipse.egit.ui 2 0 2024-08-28 12:32:01.863
+=======
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-27 08:41:26.690
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-27 08:41:26.702
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12976
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-27 08:41:29.218
+!MESSAGE Boot project ADDED: sbb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-27 08:41:29.218
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-27 08:41:29.220
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-27 08:41:29.436
+>>>>>>> Stashed changes
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< Updated upstream
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-28 12:32:17.803
 !MESSAGE Classpath changed for project: boardexam
@@ -5207,3 +5255,5 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-28 17:08:25.553
 !MESSAGE Boot project ADDED: schoolexam
+=======
+>>>>>>> Stashed changes
